@@ -1,5 +1,7 @@
 "use strict";
-
+/**
+ * FlatCompat is required to make cjs packages compaitable with the new eslint flat config
+ */
 import { FlatCompat } from "@eslint/eslintrc";
 import path from "path";
 import { fileURLToPath } from "url";
